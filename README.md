@@ -4,3 +4,12 @@ Created a distributed bulletin board system that allows users to subscribe to sp
 new information about a topic, or view the content posted to a topic. Newly posted information is forwarded to all currently subscribed users.
 
 The 3 operations that a user can do is subscribe, unsubsribe, or post to a topic. The topic manager is responsible for handling the subscription of users and implementing the broadcast of newly posted information to the current subscribers. To ensure fault-tolerance, a topic manager is replicated on all available user nodes.
+
+
+How to run:
+
+Navigate to where the mix.exs file is.
+
+Run the below command:
+
+iex -S mix
